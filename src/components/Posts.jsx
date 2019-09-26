@@ -21,7 +21,6 @@ export class PostsComponent extends React.Component {
                 { this.props.posts.map((post)=>(
                     <li key={post.id}>{post.title}</li>
                 ))}
-                <p>Ciao</p>
             </div>
         )
     }
